@@ -1,3 +1,4 @@
+'use client'
 import {
   useLayoutEffect,
   useRef,
@@ -23,7 +24,7 @@ export const Hexagon = (
     if (!pathLength) return;
     const scaledPathLength = (pathLength * size) / 82;
     setTotalPathLength(scaledPathLength);
-  }, []);
+  }, [size]);
 
   return (
     <div className="inline-flex relative">

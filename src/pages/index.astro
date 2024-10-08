@@ -1,12 +1,14 @@
 ---
 import DefaultLayout from "../layouts/Default.astro";
 import { FeaturesCardsSection } from "../sections/FeaturedCards";
-import {HeaderSection} from "../sections/Header.tsx";
 import {HeroSection} from "../sections/Hero.tsx";
+import { FeaturesGrid } from "../sections/FeaturedGrid";
 ---
 
+
 <DefaultLayout>
-  <HeaderSection />
-  <HeroSection/>
-  <FeaturesCardsSection/>
+  <HeroSection client:load/>
+  <FeaturesCardsSection client:load/>
+  <FeaturesGrid client:load/>
 </DefaultLayout>
+
