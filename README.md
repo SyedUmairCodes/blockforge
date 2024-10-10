@@ -16,4 +16,18 @@ Blockforge is a pioneer in modern blockchain tooling and ecosystem. Helping you 
 
 ## Live Site and Deployment
 
-The Live Demo of the project is available at [Link to be added soon]
+The Live Demo of the project is available at [here](https://blockchainforge.netlify.app)
+
+## Screenshots
+
+**Home Page**
+
+![Homepage](./home.png)
+
+**Career Page**
+
+![Career](./career.png)
+
+**Contact Page**
+
+![Contact](./contact.png)
